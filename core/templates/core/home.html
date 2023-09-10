@@ -1,0 +1,54 @@
+{% extends 'core/base.html'%}
+{%load static %}
+{% block content%}
+<div class="mt-5 ">
+    <div class="text-center">
+    <img src="{%static 'core/images/pic.jpeg'%}" alt="ProfilePic"
+    class="img-thumbnail" width="250px" height="150px" >
+    </div>
+    <div class="mt-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">Hello,</h1>
+    <div class="px-4" style="line-height:2 rem">
+    <p style="text-indent:100px;">I am <b class="text-warning">Sonam Kashyap</b>
+        having 5 years of Full stack web development experience for global
+        businesses,
+        I offer the technical expertise you are seeking for your web
+        developer position.
+
+    </p>
+    <p>
+        Since earning my bachelors's degree in in ternet and web
+        development from XYZ university, I have served as a web 
+        developer  <b class="text-warning"> GS Technology</b>,one
+        of biggest premier digital marketing and web development firm.
+        Inthis position digital marketing and web development projects
+        from clients in diverse indudtries including technology,
+        manufacturing,phamaceutical, hospitality, retail and 
+        Financial services.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Repellendus dolores accusantium vitae consectetur magni, 
+        repudiandae sunt velit consequatur quod distinctio vel a
+        ducimus culpa ut pariatur numquam blanditiis natus dicta.
+    </p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Nesciunt architecto recusandae eius voluptate nobis voluptas 
+        eligendi molestiae quod consectetur, odio obcaecati quas,
+        ex placeat dignissimos vitae fugit quaerat, reiciendis explicabo.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Eos dolorum maiores a ipsa aliquam sint corrupti est omnis
+        architecto, tempora voluptatem ad autem molestiae aperiam 
+        impedit aspernatur iure voluptatibus repudiandae!
+    </p>
+  </div>
+ </div>
+ <div class="text-center">
+    <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+ <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+ </div>
+</div>
+{%  endblock content %}
